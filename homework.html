@@ -268,7 +268,7 @@
 
         <main class="row">
             <div class="row text-center">
-                <div class="col-4">
+                <div class="col-6">
                     <div class="card mb-4 rounded-3 shadow-sm">
                         <div class="card-header py-3">
                             <h4 class="my-0 fw-normal">Товар 1</h4>
@@ -285,26 +285,56 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-6">
                     <form>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
+                            <input name="password" type="password" class="form-control" id="exampleInputPassword1">
                         </div>
                         <button type="submit" class="btn btn-primary">Отправить</button>
                     </form>
             </div>
+        </div>
+        <div class="row text-center">
+       <div class="col-4">
+           <p>
+             <button class="btn btn-primary form-control" type="button" data-bs-toggle="collapse" data-bs-target="#buy" aria-expanded="false" aria-controls="collapseExample">Как купить?</button>
+           </p>
+           <div class="collapse" id="buy">
+             <div class="card card-body">
+                 Оформить покупку Вы можете на нашем сайте и по телефону +7-777-777-777.
+             </div>
+           </div>
+       </div>
+                  <div class="col-4">
+           <p>
+             <button class="btn btn-primary form-control" type="button" data-bs-toggle="collapse" data-bs-target="#delivery" aria-expanded="false" aria-controls="multiCollapseExample2">Как доставить?</button>
+           </p>
+           <div class="collapse" id="delivery">
+             <div class="card card-body">
+               Бесплатная доставка по любому адресу в пределах солнечной системы.
+             </div>
+           </div>
+       </div>
+            <div class="col-4">
+           <p>
+             <button class="btn btn-primary form-control" type="button" data-bs-toggle="collapse" data-bs-target="#guarantee" aria-expanded="false" aria-controls="multiCollapseExample2">Какая гарантия?</button>
+           </p>
+           <div class="collapse" id="guarantee">
+             <div class="card card-body">
+               Пожизненная гарантия от производителя.
+             </div>
+           </div>
+       </div>
+       </div>
         </main>
 
     </div>
-
-
-
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
